@@ -122,7 +122,6 @@ class _SellerDashboardScreenState extends State<SellerDashboardScreen> {
         'title': 'Manage Orders',
         'icon': Icons.receipt_long,
         'onTap': () {
-          // TODO: Navigate to Manage Orders Screen
           Navigator.push(
             context,
             MaterialPageRoute(builder: (_) => const ManageOrdersScreen()),
