@@ -1,0 +1,8 @@
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+# where to write the S.dart and per-locale files:
+output-dir: lib/generated
+
+# tweak filenames if you like
+output-localization-file: s.dart
+output-class: S
